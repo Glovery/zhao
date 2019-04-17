@@ -1,0 +1,11 @@
+express+mysql+vue
+
+安装软件： Navicat for mysql 、 MySQL 、node、vue
+
+服务端启动： 进入server目录 运行 node index.js
+客户端启动：项目根目录 运行 npm run dev
+
+数据库： 库名：user  表名：userinfo、list
+
+userinfo结构：id（int）、name（char）、password（int）
+list结构：id（smallint）、name(char)、address（char）、time（date）
